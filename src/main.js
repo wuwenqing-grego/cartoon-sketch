@@ -40,7 +40,7 @@ const player = {
             css.innerHTML += str[index]
             html.scrollTop = html.scrollHeight
             player.step()
-        }, 60)
+        }, 30)
     },
 
     play: () => {
