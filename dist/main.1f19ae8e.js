@@ -176,7 +176,7 @@ var player = {
       css.innerHTML += _style.default[index];
       html.scrollTop = html.scrollHeight;
       player.step();
-    }, 30);
+    }, 15);
   },
   play: function play() {
     paused = 0;
@@ -220,7 +220,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64954" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53740" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
